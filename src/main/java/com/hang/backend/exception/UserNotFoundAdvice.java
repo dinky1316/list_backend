@@ -11,7 +11,7 @@ import java.util.Map;
 
 // 모든 컨트롤러에 적용 (글로벌 예외처리)
 @ControllerAdvice
-public class USerNotFoundAdvice {
+public class UserNotFoundAdvice {
 
     // UserNotFoundException 안에 에러 메세지 있음
     @ExceptionHandler(UserNotFoundException.class)
